@@ -1,0 +1,85 @@
+body{
+    display: flex;
+
+}
+
+.root {
+    width: 85vw;
+    height: 80vh;
+    margin: auto;
+    position: relative;
+    top: 50px;
+    background:  rgb(127, 127, 127);
+}
+
+.left-pane {
+    display: inline-block;
+    background: linear-gradient(to bottom left, hsl(243, 87%, 12%), hsl(243, 86%, 85%));
+    height: 100%;
+    width: 40%;
+    
+}
+
+.main-pic {
+    height: 60%;
+    width: 80%;
+    padding-left: 30px;
+    padding-top: 100px;
+}
+
+/* Right pane */
+
+.right-pane {
+    width: 55%;
+    height: 95%;
+    display: inline-block;
+    position: absolute;
+    padding-left: 30px;
+}
+
+.header {
+    text-align: right;
+    padding-top: 40px;
+}
+
+.logo {
+    display: inline;
+    
+}
+
+.spacer {
+    display: inline-block;
+    width: 55%;
+}
+
+.icons {
+    display: inline-block;
+    /* width: 20%; */
+    text-decoration: none;
+    margin-right: 20px;
+
+}
+
+/* Main content */
+.main-content {
+    line-height: 1.5;
+}
+
+.pitch {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    padding-right: 20px;
+}
+
+.description {
+    font-family: 'OpenSans';
+    font-weight: 400;
+    font-size: 14px;
+    padding-right: 100px;
+}
+
+footer {
+    text-align: right;
+    margin-right: 20px;
+    padding-top: 30px;
+}
